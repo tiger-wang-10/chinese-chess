@@ -207,6 +207,7 @@ class Qizi:
         if func == 1:
             self.qipan.out_info[1] = u"    选中位置不可走"
 
+
     def is_movable(self,location,func=1):#func is used for output or not,1means output 0 means not output
         if self.type == "jiang":
             return self.jiang(location)
